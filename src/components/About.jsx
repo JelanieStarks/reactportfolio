@@ -2,23 +2,23 @@ import React from "react";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#f5f5f5]">
+    <div name="about" className="w-full h-screen bg-[#2a2d36]">
       <div className="flex flex-col justify-center items-center w-full h-full">
         {/* container div */}
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap 8">
           <div className="sm:text-right pb-8 pl-4">
-            <p className="text-4xl font-bold text-blue-950 inline border-b-4 border-pink-600">
+            <p className="text-4xl font-bold text-blue-400 inline border-b-4 border-pink-600">
               About
             </p>
           </div>
           <div></div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm: text-right text-4xl font-bold text-blue-900">
+          <div className="sm: text-right text-4xl font-bold text-blue-400">
             <p>Hey, Im Jelanie, feel free to take a look around</p>
           </div>
           <div>
-            <p>
+            <p className="text-2xl text-[#d5d2c9]">
               As a skilled full stack developer, passionate mechanic, and
               experienced YouTuber, I live for the thrill of coding, cars, and
               sharing my knowledge with others. My insatiable thirst for

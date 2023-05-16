@@ -8,13 +8,14 @@ import {
   FaLinkedin,
   FaYoutube,
 } from "react-icons/fa";
+import {Link} from 'react-scroll'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[75px] flex justify-between items-center px-4 bg-[#efd950] text-blue-900">
+    <div className="fixed w-full h-[75px] z-99 flex justify-between items-center px-4 bg-[#efd950] text-blue-900">
       <div>
         {/* Here is the logo, resize the width to that you find suitable*/}
         <img src={Logo} alt="JS Logo image" style={{ width: "50px" }} />
@@ -22,11 +23,11 @@ const Navbar = () => {
       {/* new list DIV, add or remove cateragories from the nav bar */}
 
       <ul className="hidden md:flex">
-        <li>Top</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contact Me</li>
+        <li><Link to="main" smooth={true} duration={500}>Main</Link></li>
+        <li><Link to="about" smooth={true} duration={500}>About</Link></li>
+        <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
+        <li><Link to="work" smooth={true} duration={500}>Work</Link></li>
+        <li><Link to="contact" smooth={true} duration={500}>Contact Me</Link></li>
       </ul>
 
       {/* HAMBURGUR PS class name hidden calls hiding of anthing in the tag */}
