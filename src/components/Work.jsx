@@ -25,7 +25,7 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 {/* Buttons that appear on hover */}
-                <a href="">
+                <a href="http://thevirtualx.com/login">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -49,7 +49,7 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 {/* Buttons that appear on hover */}
-                <a href="">
+                <a href="https://2021-spring-cohort.github.io/DonutMaker-77-by-Jelanie-Starks/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
