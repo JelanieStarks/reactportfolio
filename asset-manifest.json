@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/reactportfolio/static/css/main.4d519439.css",
+    "main.js": "/reactportfolio/static/js/main.d447f4cf.js",
+    "static/media/virtualXScreenShot.png": "/reactportfolio/static/media/virtualXScreenShot.28dc3165939987f3b779.png",
+    "static/media/donutMakerImage.png": "/reactportfolio/static/media/donutMakerImage.c744d736292706f61d56.png",
+    "static/media/HTML-removebg-preview.png": "/reactportfolio/static/media/HTML-removebg-preview.c50e302c2e87bbb9a1e7.png",
+    "static/media/CSS-removebg-preview.png": "/reactportfolio/static/media/CSS-removebg-preview.fd30ef626673140cb5da.png",
+    "static/media/Jenkins-removebg-preview.png": "/reactportfolio/static/media/Jenkins-removebg-preview.6375db56e61ca93c4486.png",
+    "static/media/My SQL.png": "/reactportfolio/static/media/My SQL.0a0f58f3b2c4d24e1764.png",
+    "static/media/logo transparent.png": "/reactportfolio/static/media/logo transparent.0368d31d2b49178ba89c.png",
+    "static/media/AWS_Logo-removebg-preview.png": "/reactportfolio/static/media/AWS_Logo-removebg-preview.2de58cf1a3bf42bf7d31.png",
+    "static/media/JavaScript-removebg-preview.png": "/reactportfolio/static/media/JavaScript-removebg-preview.3ba38f034058adf17f81.png",
+    "index.html": "/reactportfolio/index.html",
+    "main.4d519439.css.map": "/reactportfolio/static/css/main.4d519439.css.map",
+    "main.d447f4cf.js.map": "/reactportfolio/static/js/main.d447f4cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d519439.css",
+    "static/js/main.d447f4cf.js"
+  ]
+}
