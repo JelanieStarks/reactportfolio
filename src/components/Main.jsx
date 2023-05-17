@@ -2,15 +2,15 @@ import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import {Link} from 'react-scroll'
 
-
 const Main = () => {
   return (
     <div name="main" className="w-full h-screen bg-[#2a2d36]">
       {/* le Container */}
-      <div className="max-w-6xl mx-auto px-8  flex flex-col justify-center h-full">
+      <div className="max-w-5xl mx-auto px-8  flex flex-col justify-center h-full">
         <h1 className='text-6xl text-bold justify-center text-[#d5d2c9]'>Check out what I’ve been up to lately!</h1>
-        <div class="wrapper">
-          <iframe 
+        <div><iframe
+          width="100%"
+          height="560px"
           src="https://www.youtube.com/embed/VFggmUKQ7mU"
           title="YouTube video player"
           frameborder="0"
